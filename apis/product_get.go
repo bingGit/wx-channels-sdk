@@ -43,6 +43,7 @@ type RespProductGet struct {
 		MinPrice     int      `json:"min_price"`
 		OutProductID string   `json:"out_product_id"`
 		ProductID    string   `json:"product_id"`
+		DeliverMethod int      `json:"deliver_method"`
 		Skus         []struct {
 			OutSkuID  string        `json:"out_sku_id"`
 			SalePrice int           `json:"sale_price"`
